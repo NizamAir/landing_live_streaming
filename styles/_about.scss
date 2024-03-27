@@ -18,13 +18,13 @@
         no-repeat;
 
       &-title {
-        @include m.font(45px, 400, v.$color-white);
+        @include m.font(45px, 400, v.$color_white);
       }
 
       &-desc {
         margin: 10px 0 0;
         max-width: 590px;
-        @include m.font(20px, 300, v.$color-white);
+        @include m.font(20px, 300, v.$color_white);
         line-height: 1.5;
       }
 
@@ -39,12 +39,12 @@
 
       @media (max-width: v.$media_md) {
         &-title {
-          @include m.font(35px, 400, v.$color-white);
+          @include m.font(35px, 400, v.$color_white);
         }
 
         &-desc {
           max-width: 500px;
-          @include m.font(16px, 300, v.$color-white);
+          @include m.font(16px, 300, v.$color_white);
         }
 
         background: url("../assets/img/desktop_alpha.webp") 99% 100% / 450px
@@ -79,14 +79,14 @@
       }
 
       &-title {
-        @include m.font(45px, 400, v.$color-white);
+        @include m.font(45px, 400, v.$color_white);
       }
 
       &-desc {
         text-align: right;
         max-width: 480px;
         line-height: 1.5;
-        @include m.font(20px, 300, v.$color-white);
+        @include m.font(20px, 300, v.$color_white);
       }
 
       @media (max-width: v.$media_xl) {
@@ -107,12 +107,12 @@
         @include m.d-flex(start, end, nowrap, column, 0, 20px);
 
         &-title {
-          @include m.font(35px, 400, v.$color-white);
+          @include m.font(35px, 400, v.$color_white);
         }
 
         &-desc {
           max-width: 340px;
-          @include m.font(16px, 300, v.$color-white);
+          @include m.font(16px, 300, v.$color_white);
         }
 
         &::before {
@@ -146,13 +146,13 @@
 
       &-title {
         margin: 200px 0 0;
-        @include m.font(45px, 400, v.$color-white);
+        @include m.font(45px, 400, v.$color_white);
       }
 
       &-desc {
         margin: 10px 0 0;
         max-width: 730px;
-        @include m.font(20px, 300, v.$color-white);
+        @include m.font(20px, 300, v.$color_white);
         line-height: 1.5;
       }
 
@@ -166,12 +166,12 @@
         height: 730px;
         &-title {
           margin: 50px 0 0 0;
-          @include m.font(35px, 400, v.$color-white);
+          @include m.font(35px, 400, v.$color_white);
         }
 
         &-desc {
           padding: 0 15px 0 0;
-          @include m.font(16px, 300, v.$color-white);
+          @include m.font(16px, 300, v.$color_white);
         }
 
         background: url("../assets/img/cactus_alpha.webp") 99% 100% / 320px
